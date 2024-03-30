@@ -32,6 +32,7 @@ const MeetingPage = () => {
 
   return (
     <main className="h-screen w-full">
+
       <StreamCall call={call}>
         <StreamTheme>
 
@@ -42,6 +43,7 @@ const MeetingPage = () => {
         )}
         </StreamTheme>
       </StreamCall>
+      
     </main>
   );
 };

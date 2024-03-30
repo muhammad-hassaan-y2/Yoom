@@ -99,6 +99,7 @@ const CallList = ({ type }: { type: 'ended' | 'upcoming' | 'recordings' }) => {
                 : () => router.push(`/meeting/${(meeting as Call).id}`)
             }
           />
+          
         ))
       ) : (
         <h1 className="text-2xl font-bold text-white">{noCallsMessage}</h1>

@@ -24,6 +24,7 @@ const DropdownMenuSubTrigger = React.forwardRef<
     inset?: boolean;
   }
 >(({ className, inset, children, ...props }, ref) => (
+
   <DropdownMenuPrimitive.SubTrigger
     ref={ref}
     className={cn(
@@ -35,6 +36,7 @@ const DropdownMenuSubTrigger = React.forwardRef<
   >
     {children}
     <ChevronRight className="ml-auto size-4" />
+    
   </DropdownMenuPrimitive.SubTrigger>
 ));
 DropdownMenuSubTrigger.displayName =

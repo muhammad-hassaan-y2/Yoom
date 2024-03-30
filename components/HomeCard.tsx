@@ -26,8 +26,10 @@ const HomeCard = ({ className, img, title, description, handleClick }: HomeCardP
       </div>
       
       <div className="flex flex-col gap-2">
+
         <h1 className="text-2xl font-bold">{title}</h1>
         <p className="text-lg font-normal">{description}</p>
+        
       </div>
     </section>
   );

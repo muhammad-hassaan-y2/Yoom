@@ -12,6 +12,7 @@ export const useGetCalls = () => {
     const loadCalls = async () => {
       if (!client || !user?.id) return;
       
+      
       setIsLoading(true);
 
       try {

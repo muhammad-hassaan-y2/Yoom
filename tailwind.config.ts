@@ -8,6 +8,7 @@ const config = {
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
   ],
+  
   prefix: '',
   theme: {
     container: {
@@ -16,6 +17,7 @@ const config = {
       screens: {
         '2xl': '1400px',
       },
+
     },
     extend: {
       colors: {
